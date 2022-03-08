@@ -24,10 +24,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<NavBar />} >
-            <Route path="home_content" element={<HomeContent/>} />
-            <Route path="saturday_content" element={<SaturdayContent />}/>
-            <Route path="sunday_content" element={<SundayContent/>}/>
+          <Route path="/ericamaeborromeo" element={<NavBar />} >
+            <Route path="/ericamaeborromeo/home_content" element={<HomeContent/>} />
+            <Route path="/ericamaeborromeo/saturday_content" element={<SaturdayContent />}/>
+            <Route path="/ericamaeborromeo/sunday_content" element={<SundayContent/>}/>
 
           </Route>
         </Routes>
