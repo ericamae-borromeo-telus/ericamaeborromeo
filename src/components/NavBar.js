@@ -9,7 +9,7 @@ const NavBar = () => {
         <>
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
-                    <Link to = "/home_content" className="navbar-brand" >EM</Link>
+                    <Link to = "/ericamaeborromeo/home_content" className="navbar-brand" >EM</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

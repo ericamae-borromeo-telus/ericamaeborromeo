@@ -2,7 +2,7 @@ import './App.css';
 
 
 //Router
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route , IndexRoute} from "react-router-dom";
 
 //Components
 import NavBar from './components/NavBar'
@@ -25,6 +25,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/ericamaeborromeo" element={<NavBar />} >
+            <Route index element={<HomeContent/>} />
             <Route path="/ericamaeborromeo/home_content" element={<HomeContent/>} />
             <Route path="/ericamaeborromeo/saturday_content" element={<SaturdayContent />}/>
             <Route path="/ericamaeborromeo/sunday_content" element={<SundayContent/>}/>
