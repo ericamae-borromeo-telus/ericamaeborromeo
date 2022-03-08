@@ -4,7 +4,7 @@ import '../styles/styles.css'
 const Footer = () => {
     return (
         <>
-            <div className="container-fluid position-absolute bottom-0 start-0">
+            <div className="container-fluid fixed-bottom bottom-0 start-0">
                 <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                     <div className="col-md-4 d-flex align-items-center">
 

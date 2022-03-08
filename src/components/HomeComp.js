@@ -24,7 +24,7 @@ const HomeComp = () => {
                 * */
             }
 
-            <div className="quote">
+            <section className="quote">
                 <h3>Just Another Weekend</h3>
                 <i><h6>from HAI[NA]KU</h6></i>
 
@@ -42,7 +42,7 @@ const HomeComp = () => {
 
                 </p>
 
-            </div>
+            </section>
 
 
         </>
