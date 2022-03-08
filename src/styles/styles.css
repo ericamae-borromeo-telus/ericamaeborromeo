@@ -19,7 +19,7 @@ body{
 .quote{
     justify-content: center;
     text-align: center;
-    margin-top: 10%;
+    margin: 10% 0 10% 0;
     height:auto;
 
 
@@ -90,7 +90,7 @@ a{
     text-decoration: none;
 }
 .active{
-    color:#000;
+    color:#fff;
 }
 
 /*SECTIONS*/
@@ -102,7 +102,7 @@ section.saturday-section, section.sunday-section{
     border: 2px solid #D7E9F7;
     box-shadow: 1px 1px 5px #D7E9F7;
     height:auto;
-    margin: 10% 0 0% 0%;
+    margin: 10% 0 10% 0%;
     width: 100%;
     border-radius: 25px;
     text-align: center;
