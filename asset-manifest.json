@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ericamaeborromeo/static/css/main.0ce3f3d8.css",
-    "main.js": "/ericamaeborromeo/static/js/main.9ccc9b8a.js",
+    "main.js": "/ericamaeborromeo/static/js/main.f6c5883b.js",
     "static/js/787.3af3adaf.chunk.js": "/ericamaeborromeo/static/js/787.3af3adaf.chunk.js",
     "static/media/Poppins-Medium.ttf": "/ericamaeborromeo/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
     "static/media/popcorn.png": "/ericamaeborromeo/static/media/popcorn.b5ebc414b0c7ec3b274c.png",
@@ -13,11 +13,11 @@
     "static/media/programming.png": "/ericamaeborromeo/static/media/programming.c29ef1f335e5f30001d8.png",
     "index.html": "/ericamaeborromeo/index.html",
     "main.0ce3f3d8.css.map": "/ericamaeborromeo/static/css/main.0ce3f3d8.css.map",
-    "main.9ccc9b8a.js.map": "/ericamaeborromeo/static/js/main.9ccc9b8a.js.map",
+    "main.f6c5883b.js.map": "/ericamaeborromeo/static/js/main.f6c5883b.js.map",
     "787.3af3adaf.chunk.js.map": "/ericamaeborromeo/static/js/787.3af3adaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ce3f3d8.css",
-    "static/js/main.9ccc9b8a.js"
+    "static/js/main.f6c5883b.js"
   ]
 }
