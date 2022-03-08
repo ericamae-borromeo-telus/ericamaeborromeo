@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.acc680ac.css",
+    "main.js": "/static/js/main.8e8306a7.js",
+    "static/js/787.3af3adaf.chunk.js": "/static/js/787.3af3adaf.chunk.js",
+    "static/media/Poppins-Medium.ttf": "/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/popcorn.png": "/static/media/popcorn.b5ebc414b0c7ec3b274c.png",
+    "static/media/jump.png": "/static/media/jump.5efcfd9d54be03e3ff8e.png",
+    "static/media/girl.png": "/static/media/girl.7f548ad45e704a923f74.png",
+    "static/media/church.png": "/static/media/church.9bfb0001c64931aca870.png",
+    "static/media/student.png": "/static/media/student.f89c087f0321b473dad2.png",
+    "static/media/yoga.png": "/static/media/yoga.7f307aeeaabef95f9a3a.png",
+    "static/media/programming.png": "/static/media/programming.c29ef1f335e5f30001d8.png",
+    "index.html": "/index.html",
+    "main.acc680ac.css.map": "/static/css/main.acc680ac.css.map",
+    "main.8e8306a7.js.map": "/static/js/main.8e8306a7.js.map",
+    "787.3af3adaf.chunk.js.map": "/static/js/787.3af3adaf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acc680ac.css",
+    "static/js/main.8e8306a7.js"
+  ]
+}
