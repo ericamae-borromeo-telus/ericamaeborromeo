@@ -11,8 +11,8 @@ const SaturdayComp = () => {
         <>
             <section className="saturday-section" id="saturdaySection">
 
-                <h3>Saturday plans</h3>
-                <div className="row">
+                <h3 className="slide-left">Saturday activities</h3>
+                <div className="row slide-left">
                     <article className="col-sm-4">
                         <img src={yoga} alt="yoga" style={{width: "50%"}}/>
                         <details>

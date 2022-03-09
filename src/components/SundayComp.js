@@ -6,12 +6,13 @@ import student from "../assets/imgs/student.png";
 
 
 const SundayComp = () => {
+
     return (
         <>
-            <section className="saturday-section" id="saturdaySection">
+            <section className="saturday-section " id="saturdaySection">
 
-                <h3>Sunday plans</h3>
-                <div className="row">
+                <h3 className="slide-left">Sunday activities</h3>
+                <div className="row slide-left">
                     <article className="col-sm-4">
                         <img src={jump} alt="yoga" style={{width: "50%"}}/>
                         <details>
