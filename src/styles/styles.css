@@ -13,66 +13,45 @@ body{
     box-sizing: border-box;
     font-family: Poppins, serif;
     line-height: 26px;
+    position: relative;
+    height: auto;
 }
 
 /*HOME*/
-.quote{
-    justify-content: center;
-    text-align: center;
-    margin: 10% 0 10% 0;
-    height:auto;
+.home{
 
-
-}
-.quote h3{
-     color:#7ab4e0;
- }
-.quote p{
-    margin-top: 5%;
-}
-
-.weekend{
-
-    display: block;
-    margin: 10% 10% 0 auto;
-}
-
-
-.weekend h1{
-    color:#7ab4e0;
-    padding: 0 0 0 10%;
-}
-.weekend p{
-    padding: 2% 20% 0 10%;
-
-}
- .about-me {
-     margin: 5% 10% 0 10%;
-
- }
- .about-me h3{
-     text-align: right;
-     color:#7ab4e0;
-     padding-top: 3%;
-}
- .about-me p{
-     float: right;
-     text-align: right;
-     word-break: break-word;
-     width: 50%;
-
- }
- .about-me  img{
+    background: #eaf6ff ;
+    width: 86%;
     float: right;
- }
+    display: block;
+    height: 90vh;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 0 8px 8px -4px #eaf6ff;
+
+
+
+}
+
+.quote{
+    float: right;
+    text-align: right;
+    margin: 10% 5% 0 0;
+}
+.quote h1{
+    color:#9ed5ff;
+}
+.quote p{
+    margin-top: 10%;
+}
+
+
 /*NAV*/
 
 nav{
-    background-color: #add2ef;
     width: 100%;
     height:50px;
-  
-    box-shadow: 1px 1px 6px #D7E9F7;
+
 
 }
 .navbar-brand{
@@ -83,14 +62,44 @@ nav{
 ul > li{
     font-size: 16px;
     list-style: none;
+    margin: 3%;
 }
 
 a{
-    color:#76add8;
+    color:#9ed5ff;
     text-decoration: none;
 }
-.active{
-    color:#fff;
+.nav-link{
+    color:#000 !important;
+}
+.nav-link.active{
+    color:#9ed5ff !important;
+}
+
+/*ASIDE*/
+
+#sidebar-wrapper {
+    padding-left: 0;
+    position: fixed;
+    height: 100%;
+    width: 14%;
+
+}
+
+.sidebar-contents{
+    text-align: center;
+    padding: 60% 5% 0 5%;
+}
+.sidebar-contents h4{
+    padding: 10% 15% 0 15%;
+    color:#9ed5ff;
+}
+.sidebar-contents p{
+    padding: 5% 15% 0 15%;
+}
+.social-icons{
+    margin: 8%;
+    color: #9ed5ff;
 }
 
 /*SECTIONS*/
@@ -99,20 +108,24 @@ section h3{
 }
 
 section.saturday-section, section.sunday-section{
-    border: 2px solid #D7E9F7;
-    box-shadow: 1px 1px 5px #D7E9F7;
-    height:auto;
-    margin: 10% 0 10% 0%;
-    width: 100%;
-    border-radius: 25px;
+    background: #eaf6ff ;
+    width: 86%;
+    float: right;
+    display: block;
+    height: 90vh;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 0 8px 8px -4px #eaf6ff;
     text-align: center;
-    padding:5%;
+    padding: 5% 0 5% 0;
+
+
 
 }
 
 
 summary{
-    background: #D7E9F7;
+    box-shadow: 1px 1px 6px #D7E9F7;
     border-radius: 15px;
 
 }
@@ -120,15 +133,17 @@ details{
     background: #fff;
     box-shadow: 1px 1px 6px #D7E9F7;
     border-radius: 15px;
-    margin:20px
+    margin:8%;
 }
 
 
 
 /*FOOTER*/
 .footer{
-    background: #1e1e1f;
     height: 100px;
     width:100%;
     bottom:0px;
+}
+.copyright{
+    font-size: 14px;
 }

@@ -37,7 +37,7 @@ const SundayComp = () => {
                     </article>
 
                 </div>
-             
+
 
 
             </section>

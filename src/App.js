@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route , IndexRoute} from "react-router-dom";
 //Components
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
+import Aside from './components/Aside'
 
 import SaturdayComp from './components/SaturdayComp'
 import SundayComp from './components/SundayComp'
@@ -22,6 +23,8 @@ import SundayContent from './pages/SundayContent'
 function App() {
   return (
     <>
+      <Aside/>
+
       <BrowserRouter>
         <Routes>
           <Route path="/ericamaeborromeo" element={<NavBar />} >
