@@ -19,7 +19,9 @@ const Aside = () => {
                     <ul className="nav justify-content-center list-unstyled d-flex">
                         <li className="social-icons"><a href="https://twitter.com/emsapinit" target="_blank"><i className="bi bi-twitter"></i></a> </li>
                         <li className="social-icons"><a href="https://github.com/emborromeo" target="_blank"><i className="bi bi-github"></i></a></li>
-                        <li className="social-icons"><a href="https://www.linkedin.com/in/emborromeo/" target="_blank"><i className="bi bi-linkedin"></i></a></li>
+                        <li className="social-icons"><a href="https://www.instagram.com/emsapinit/" target="_blank"><i className="bi bi-instagram"></i></a></li>
+                       <li className="social-icons"><a href="https://www.linkedin.com/in/emborromeo/" target="_blank"><i className="bi bi-linkedin"></i></a></li>
+
                     </ul>
 
 

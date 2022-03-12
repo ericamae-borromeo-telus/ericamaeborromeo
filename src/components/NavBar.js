@@ -12,7 +12,9 @@ const NavBar = () => {
         <>
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
-                    <Link to = "/ericamaeborromeo/home_content" className="navbar-brand" >    <img src={em} alt="em logo" style={{width:"90%"}} className="em-logo"/></Link>
+                    <Link to = "/ericamaeborromeo/home_content" className="navbar-brand" >    
+                        <img src={em} alt="em logo" className="img-fluid em-logo"/>
+                    </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

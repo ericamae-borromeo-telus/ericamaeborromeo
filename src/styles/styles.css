@@ -59,6 +59,7 @@ nav{
 
 
 }
+
 .navbar-brand{
      width: 8%;
      margin:3% 0 0 2%; 
@@ -89,8 +90,10 @@ a{
 }
 
 .nav-link:hover{
-    font-size:17px
+    font-size:17px;
 }
+
+
 /*ASIDE*/
 
 #sidebar-wrapper {
@@ -114,7 +117,7 @@ a{
     padding: 5% 15% 0 15%;
 }
 .social-icons{
-    margin: 8%;
+    margin: 5%;
     color: #9ed5ff;
 }
 .sidebar-contents h4:hover{
@@ -149,6 +152,8 @@ section.saturday-section, section.sunday-section{
     box-shadow: 0 8px 8px -4px #eaf6ff;
     text-align: center;
     padding: 5% 0 5% 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
 
 
 
@@ -203,3 +208,72 @@ summary:hover{
     }
   }
 */
+
+/*Small devices (landscape phones, 576px and down)*/
+/*col*/
+@media screen and (max-width: 576px) {
+  
+    #sidebar-wrapper{
+        display:none;
+    }
+    .navbar-collapse {
+        background:rgba(234, 246, 255, 0.90);
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 40% !important;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and down)*/
+/*col-sm*/
+@media screen and (min-width: 577px) and (max-width: 768px) {
+   
+    #sidebar-wrapper{
+        display:none;
+    }
+    .navbar-collapse {
+        background:rgba(234, 246, 255, 0.90);
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 40% !important;
+    }
+    .navbar{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    
+    }
+}
+
+
+/*Large devices (desktops, 767px and down)*/
+/*col-md TABLET*/ 
+/*Navbar collapse*/
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+   
+    #sidebar-wrapper p{
+        padding:0 !important;
+    }
+    .navbar-collapse {
+        background:rgba(234, 246, 255, 0.90);
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 40% !important;
+    }
+    .navbar{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and down)*/
+/*col-lg*/
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  
+}
+
+
+
